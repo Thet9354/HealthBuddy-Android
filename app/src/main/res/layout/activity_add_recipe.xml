@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fl_addRecipe"
+    android:background="@color/green"
+    tools:context=".AddRecipe_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You are what you eat,\nlog it down"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:textSize="30sp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"/>
+
+                <EditText
+                    android:id="@+id/editTxt_recipeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_rect_10"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:hint="Name of Recipe"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTxt_caloriesAmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_rect_10"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:hint="Amount of Calories"
+                    android:inputType="number"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/editTxt_recipeDetail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/rounded_rect_10"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:gravity="center_vertical"
+                    android:hint="Details of Recipe"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint"
+                    android:textSize="20sp" />
+
+
+                <ImageView
+                    android:id="@+id/imgView_recipeImage"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/peanut_butter_stuffed"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"/>
+
+                <Button
+                    android:id="@+id/btn_add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="@color/blue"
+                    android:padding="10dp"
+                    android:text="Add"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    app:cornerRadius="30dp" />
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

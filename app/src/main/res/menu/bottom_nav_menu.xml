@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bottom_nav_nutrition"
+        android:title="Nutrition"
+        android:icon="@drawable/nutrition_ic"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
+
+    <item
+        android:id="@+id/bottom_nav_fitness"
+        android:title="Fitness"
+        android:icon="@drawable/fitness_ic"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="@color/white"
+        app:cnb_textColor="@color/white"/>
+
+    <item
+        android:id="@+id/bottom_nav_home"
+        android:title="Home"
+        android:icon="@drawable/home_ic"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="@color/black"
+        app:cnb_textColor="@color/black"/>
+
+    <item
+        android:id="@+id/bottom_nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/person_ic"
+        app:cnb_backgroundColor="@color/teal_200"
+        app:cnb_iconColor="@color/black"
+        app:cnb_textColor="@color/black"/>
+
+</menu>

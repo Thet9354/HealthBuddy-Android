@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HealthBuddy</string>
+
+    <string-array name="workoutVidTitle">
+        <item name="vid1">PERFECT 20 MIN FULL BODY WORKOUT FOR BEGINNERS (No Equipment)</item>
+        <item name="vid2">The BEST Way to Use Cardio to Lose Fat (Based on Science)</item>
+        <item name="vid3">He Got Called Fat, So He Got Shredded in 90 Days</item>
+        <item name="vid4">COMPLETE 20 MIN ABS WORKOUT (From Home)</item>
+    </string-array>
+
+    <string-array name="vidLink">
+        <item name="vid1">https://youtu.be/iCQ2gC4DqJw?si=qKuM8luk8kTtBSnL</item>
+        <item name="vid2">https://youtu.be/yWnacRo2VbA?si=l-xBros8IqL05cEe</item>
+        <item name="vid3">https://youtu.be/TBsA_4Lg3KE?si=p017IRtBw7fENwdy</item>
+        <item name="vid4">https://youtu.be/8PwoytUU06g?si=-kwKM_Ojzwyby__x</item>
+    </string-array>
+
+    <string-array name="recipeName">
+        <item name="name1">Spicy Chicken With Couscous</item>
+        <item name="name2">Zingy Chicken Burger</item>
+    </string-array>
+
+    <string-array name="recipeCalories">
+        <item name="kcal1">284</item>
+        <item name="kcal2">486</item>
+    </string-array>
+
+    <string-array name="recipeDetails">
+        <item name="detail1">This spicy chicken is lit</item>
+        <item name="detail2">Super easy to make burger</item>
+    </string-array>
+
+    <string name="unit">Cm</string>
+    <string name="femaletext">Female</string>
+    <string name="age">Age</string>
+    <string name="startingheight">170</string>
+    <string name="startingweight">55</string>
+    <string name="startingage">22</string>
+    <string name="todo">TODO</string>
+    <string name="height">Height</string>
+    <string name="calculate_your_bmi">Calculate Your BMI</string>
+    <string name="weight">Weight</string>
+    <string name="male">Male</string>
+
+</resources>

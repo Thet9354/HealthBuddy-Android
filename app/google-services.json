@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10197526190",
+    "project_id": "healthbuddy-42e58",
+    "storage_bucket": "healthbuddy-42e58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10197526190:android:844b8a7df83c11804a2f3f",
+        "android_client_info": {
+          "package_name": "com.example.healthbuddy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZXqJBFqX6HC1EjSLibf3VUKabjgdJ6W4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
