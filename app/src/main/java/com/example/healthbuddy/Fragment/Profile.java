@@ -39,7 +39,7 @@ public class Profile extends Fragment {
     private String mName = "Thet Pine", mPhoneNumber = "93542856", mEmail = "thetpine254@gmail.com", mPassword = "Phoon@050204", mAge, mGender;
     private String getName, getPhoneNumber, getEmail, getPassword, getAge, getGender;
 
-    FirebaseDatabase database = FirebaseDatabase.getInstance("https://healthbuddy-42e58-default-rtdb.asia-southeast1.firebasedatabase.app/");
+    FirebaseDatabase database = FirebaseDatabase.getInstance("Add your firebase url here");
     DatabaseReference databaseReference  = database.getReference().child("users");
 
     @Override

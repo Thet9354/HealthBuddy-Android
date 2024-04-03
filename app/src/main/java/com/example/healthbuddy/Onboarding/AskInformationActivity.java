@@ -42,7 +42,7 @@ public class AskInformationActivity extends AppCompatActivity {
     private String mPhoneNumber, mEmail, mPassword;
     private String mName, mAge, mGender = "";
 
-    FirebaseDatabase database = FirebaseDatabase.getInstance("https://healthbuddy-42e58-default-rtdb.asia-southeast1.firebasedatabase.app/");
+    FirebaseDatabase database = FirebaseDatabase.getInstance("Add your firebase url here");
     DatabaseReference databaseReference  = database.getReference().child("users");
 
 

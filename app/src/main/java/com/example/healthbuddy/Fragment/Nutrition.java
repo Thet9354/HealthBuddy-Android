@@ -50,7 +50,7 @@ public class Nutrition extends Fragment {
 
     int[] recipePic = {R.drawable.spicy_chicken, R.drawable.peanut_butter_stuffed};
 
-    FirebaseDatabase database = FirebaseDatabase.getInstance("https://healthbuddy-42e58-default-rtdb.asia-southeast1.firebasedatabase.app/");
+    FirebaseDatabase database = FirebaseDatabase.getInstance("Add your firebase url here");
     DatabaseReference databaseReference  = database.getReference().child("users");
 
     @Override

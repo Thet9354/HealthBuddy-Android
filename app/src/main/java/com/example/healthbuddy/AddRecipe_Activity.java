@@ -73,7 +73,7 @@ public class AddRecipe_Activity extends AppCompatActivity {
     Intent intent;
     private String mName, mPhoneNumber, email, mPassword;
 
-    FirebaseDatabase database = FirebaseDatabase.getInstance("https://healthbuddy-42e58-default-rtdb.asia-southeast1.firebasedatabase.app/");
+    FirebaseDatabase database = FirebaseDatabase.getInstance("Add your firebase url here");
     DatabaseReference databaseReference  = database.getReference().child("users");
 
 
